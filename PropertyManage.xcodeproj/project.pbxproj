@@ -14,6 +14,7 @@
 		8915A5741D2A04D500984679 /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8915A5711D2A04D500984679 /* add@2x.png */; };
 		8915A5751D2A04D500984679 /* add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8915A5721D2A04D500984679 /* add@3x.png */; };
 		8915A5781D2A072200984679 /* AddAttendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8915A5771D2A072200984679 /* AddAttendViewController.m */; };
+		8930D0001D2DF7B700ACD1E1 /* mendDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8930CFFF1D2DF7B700ACD1E1 /* mendDetailViewController.m */; };
 		897B2FA11D0504D200218E4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 897B2FA01D0504D200218E4E /* main.m */; };
 		897B2FA41D0504D200218E4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 897B2FA31D0504D200218E4E /* AppDelegate.m */; };
 		897B2FA71D0504D200218E4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 897B2FA61D0504D200218E4E /* ViewController.m */; };
@@ -184,7 +185,6 @@
 		89ECBC991D263D5F00967CF8 /* AlertPswViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89ECBC981D263D5F00967CF8 /* AlertPswViewController.m */; };
 		89F112A71D2C86F5000661EC /* MobileRepairViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F112A61D2C86F5000661EC /* MobileRepairViewController.m */; };
 		89F112AA1D2C8891000661EC /* mobileRepairModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F112A91D2C8891000661EC /* mobileRepairModel.m */; };
-		89F112AD1D2C8B58000661EC /* repairDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F112AC1D2C8B58000661EC /* repairDetailViewController.m */; };
 		89F112B21D2C9043000661EC /* addRepairViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F112B11D2C9043000661EC /* addRepairViewController.m */; };
 		89F112B71D2C90A6000661EC /* mendStateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F112B41D2C90A6000661EC /* mendStateModel.m */; };
 		89F112B81D2C90A6000661EC /* mendTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F112B61D2C90A6000661EC /* mendTypeModel.m */; };
@@ -218,6 +218,8 @@
 		8915A5721D2A04D500984679 /* add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add@3x.png"; sourceTree = "<group>"; };
 		8915A5761D2A072200984679 /* AddAttendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAttendViewController.h; sourceTree = "<group>"; };
 		8915A5771D2A072200984679 /* AddAttendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAttendViewController.m; sourceTree = "<group>"; };
+		8930CFFE1D2DF7B700ACD1E1 /* mendDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mendDetailViewController.h; sourceTree = "<group>"; };
+		8930CFFF1D2DF7B700ACD1E1 /* mendDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mendDetailViewController.m; sourceTree = "<group>"; };
 		897B2F9C1D0504D100218E4E /* PropertyManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		897B2FA01D0504D200218E4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		897B2FA21D0504D200218E4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -429,8 +431,6 @@
 		89F112A61D2C86F5000661EC /* MobileRepairViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileRepairViewController.m; sourceTree = "<group>"; };
 		89F112A81D2C8891000661EC /* mobileRepairModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobileRepairModel.h; sourceTree = "<group>"; };
 		89F112A91D2C8891000661EC /* mobileRepairModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mobileRepairModel.m; sourceTree = "<group>"; };
-		89F112AB1D2C8B58000661EC /* repairDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = repairDetailViewController.h; sourceTree = "<group>"; };
-		89F112AC1D2C8B58000661EC /* repairDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = repairDetailViewController.m; sourceTree = "<group>"; };
 		89F112AF1D2C8FFD000661EC /* addRepairViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addRepairViewController.h; sourceTree = "<group>"; };
 		89F112B11D2C9043000661EC /* addRepairViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addRepairViewController.m; sourceTree = "<group>"; };
 		89F112B31D2C90A6000661EC /* mendStateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mendStateModel.h; sourceTree = "<group>"; };
@@ -763,6 +763,8 @@
 		89E0A2971D24F1CE00BE3E74 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				8930CFFE1D2DF7B700ACD1E1 /* mendDetailViewController.h */,
+				8930CFFF1D2DF7B700ACD1E1 /* mendDetailViewController.m */,
 				89F112B11D2C9043000661EC /* addRepairViewController.m */,
 				89F112AF1D2C8FFD000661EC /* addRepairViewController.h */,
 				89E0A2981D24F1CE00BE3E74 /* noticeDetailViewController.h */,
@@ -793,8 +795,6 @@
 				898765AF1D2BA2BB002F347F /* flowDoneViewController.m */,
 				89F112A51D2C86F5000661EC /* MobileRepairViewController.h */,
 				89F112A61D2C86F5000661EC /* MobileRepairViewController.m */,
-				89F112AB1D2C8B58000661EC /* repairDetailViewController.h */,
-				89F112AC1D2C8B58000661EC /* repairDetailViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -1142,6 +1142,7 @@
 				89E0A2931D24F0A700BE3E74 /* ListTableViewCell.m in Sources */,
 				89F112B21D2C9043000661EC /* addRepairViewController.m in Sources */,
 				89E0A21C1D24A37C00BE3E74 /* stdCallBtn.m in Sources */,
+				8930D0001D2DF7B700ACD1E1 /* mendDetailViewController.m in Sources */,
 				89E0A2961D24F11200BE3E74 /* repairTableModel.m in Sources */,
 				89E70B371D2B4D4700FD548D /* SYQRCodeViewController.m in Sources */,
 				89ECBC991D263D5F00967CF8 /* AlertPswViewController.m in Sources */,
@@ -1177,7 +1178,6 @@
 				89E70B1B1D2B3C6C00FD548D /* checkDetailViewController.m in Sources */,
 				89E0A2B71D25001700BE3E74 /* staffDetailModel.m in Sources */,
 				89E0A2221D24A3AD00BE3E74 /* HomeViewController.m in Sources */,
-				89F112AD1D2C8B58000661EC /* repairDetailViewController.m in Sources */,
 				8915A5781D2A072200984679 /* AddAttendViewController.m in Sources */,
 				89E0A22B1D24A3E700BE3E74 /* SettingViewController.m in Sources */,
 				89ECBC901D26395F00967CF8 /* personInfoViewController.m in Sources */,

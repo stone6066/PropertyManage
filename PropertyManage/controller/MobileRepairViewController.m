@@ -9,9 +9,9 @@
 #import "MobileRepairViewController.h"
 #import "PublicDefine.h"
 #import "ListTableViewCell.h"
-#import "repairDetailViewController.h"
 #import "mobileRepairModel.h"
 #import "addRepairViewController.h"
+#import "mendDetailViewController.h"
 @interface MobileRepairViewController ()
 {
     NSMutableArray *_tableDataSource;
@@ -26,6 +26,7 @@
     [self loadTopNav];
     
     _pageindex=0;
+     _listType=0;
     _tableDataSource=[[NSMutableArray alloc]init];
     [self drawSegmentedView];
     [self loadTableView];
@@ -33,7 +34,7 @@
 }
 -(void)viewWillAppear:(BOOL)animated{
     _pageindex=1;
-    _listType=0;
+   
     [self loadTableData:ApplicationDelegate.myLoginInfo.communityId typeStr:_listType pageNo:_pageindex];
 }
 - (void)didReceiveMemoryWarning {
@@ -271,11 +272,12 @@ static NSString * const MarketCellId = @"mobileRepairTableCell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     ListTableViewCell *svc =(ListTableViewCell*)[self.TableView cellForRowAtIndexPath:indexPath];
     mobileRepairModel *dm= [svc praseRepairData:svc];
-    repairDetailViewController *shortCutView=[[repairDetailViewController alloc]init];
+    mendDetailViewController *shortCutView=[[mendDetailViewController alloc]init];
     
     [shortCutView setMendId:dm.mendId];
-    [shortCutView setMendType:_listType];
-    [shortCutView setMendState:dm.mendState];
+    [shortCutView setLType:_listType];
+    shortCutView.hidesBottomBarWhenPushed=YES;
+    shortCutView.navigationItem.hidesBackButton=YES;
     shortCutView.view.backgroundColor = MyGrayColor;
     [self.navigationController pushViewController:shortCutView animated:NO];
     
